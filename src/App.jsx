@@ -1,7 +1,18 @@
-import React from 'react'
-import styles from './style'
+import React from "react";
+import styles from "./style";
 
-import { Billing, Business, CardDeal, Clients, CTA, Footer, Navbar, Stats, Testimonials, Hero } from "./components";
+import {
+  Billing,
+  Business,
+  CardDeal,
+  Clients,
+  CTA,
+  Footer,
+  Navbar,
+  Stats,
+  Testimonials,
+  Hero,
+} from "./components";
 
 const App = () => (
   <div className="bg-primary w-full overflow-hidden">
@@ -29,7 +40,6 @@ const App = () => (
         <Footer />
       </div>
     </div>
-    
   </div>
 );
 
